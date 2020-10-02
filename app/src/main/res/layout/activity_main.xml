@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#C5BFBF"
     tools:context=".MainActivity">
 
     <ListView
-        android:background="#9ff"
         android:id="@+id/listView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -16,5 +16,10 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginLeft="0dp"
-        android:layout_marginTop="0dp" />
+        android:layout_marginTop="0dp"
+        android:cacheColorHint="#B31717"
+        android:clickable="true"
+        android:divider="#000"
+        android:dividerHeight="1dp"
+        android:listSelector="#006cd9" />
 </RelativeLayout>
